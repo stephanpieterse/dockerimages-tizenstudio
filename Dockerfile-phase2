@@ -1,0 +1,5 @@
+FROM tizen-phase2
+
+COPY run-tizen.sh /home/developer/run-tizen.sh
+
+CMD [ "/bin/bash", "-c", "/home/developer/run-tizen.sh" ]
